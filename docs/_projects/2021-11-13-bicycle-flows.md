@@ -18,7 +18,7 @@ We've included everything you need to create engaging posts about your work, and
 
 ![](/images/demo.jpg)
 
-<iframe src="/data_stories/html/bicycle_flows/Site_Map.html" height="300px" width="100%" style="border:none;"></iframe>
+<iframe src="/data_stories/visuals/bicycle_flows/Site_Map.html" height="300px" width="100%" style="border:none;"></iframe>
 
 **Obviously,** we’ve styled up *all the basic* text formatting options [available in markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
