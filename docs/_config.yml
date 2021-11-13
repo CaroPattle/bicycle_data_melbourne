@@ -1,7 +1,7 @@
 site: Caro Pattle - Data stories
 
-url: https://caropattle.github.io/data_stories
-baseurl: 
+url: https://caropattle.github.io
+baseurl: /data_stories
 
 collections:
   pages:
