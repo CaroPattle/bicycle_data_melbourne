@@ -16,7 +16,7 @@ menu_settings:
 footer_settings:
   logo_image: 
   logo_width: 100
-  tagline: Data analysis and visualisation of open data sourced from DataVic
+  tagline: Victorian Open Data Viz
 
 hero_settings:
   background_image: /images/backgrounds/background-hero.svg
