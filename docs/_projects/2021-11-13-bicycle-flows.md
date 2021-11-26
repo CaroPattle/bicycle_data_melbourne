@@ -4,21 +4,44 @@ subtitle: Let's look at bicycle traffic flows using open data from VicData
 date: 2021-11-13 00:00:00
 description: This is an analysis of bicycle traffic flows, examining the impact of the Covid-19 pandemic on cycling in Melbourne, Victoria.  
 
-featured_image: demo.jpg
+featured_image: '../Sensor_Site_Map.png'
 accent_color: '#4C60E6'
 gallery_images:
-  - demo.jpg
-  - demo.jpg
-  - demo.jpg
+  - '../Sensor_Site_Map.png'
+  - '../Sensor_Site_Map.png'
+  - '../Sensor_Site_Map.png'
 ---
 
 This page is a demo that shows everything you can do inside portfolio and blog posts.
 
 We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
 
-![](/images/demo.jpg)
+![]('../../images/Sensor_Site_Map.png')
 
-<iframe src="/data_stories/visuals/bicycle_flows/Site_Map.html" height="300px" width="100%" style="border:none;"></iframe>
+<iframe src="/data_stories/visuals/bicycle_flows/Sensor_Map.html" class="video-wrap full-width" height="600px"  style="border:none;"></iframe>
+<br>
+This page is a demo that shows everything you can do inside portfolio and blog posts.
+
+We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
+<br>
+<iframe src="/data_stories/visuals/bicycle_flows/BubbleYears.html" class="video-wrap full-width" height="600px" style="border:none;"></iframe>
+
+<br>
+
+This page is a demo that shows everything you can do inside portfolio and blog posts.
+
+We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
+
+<iframe src="/data_stories/visuals/bicycle_flows/speed_chart.html" allowfullscreen class="video-wrap full-width" height="500px" style="border:none;"></iframe>
+
+This page is a demo that shows everything you can do inside portfolio and blog posts.
+
+We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
+
+<br>
+
+<iframe src="/data_stories/visuals/bicycle_flows/Direction_polar_2021.html" allowfullscreen class="video-wrap full-width" height="500px" style="border:none;"></iframe>
+
 
 **Obviously,** we’ve styled up *all the basic* text formatting options [available in markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
@@ -63,7 +86,7 @@ Here's a really neat custom feature we added – galleries:
 {% include post-components/gallery.html
 	columns = 2
 	full_width = true
-	images = "/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,
+	images = "/../Sensor_Site_Map.png,/../Sensor_Site_Map.png,/../Sensor_Site_Map.png,/../Sensor_Site_Map.png,
 	"
 %}
 
@@ -74,7 +97,7 @@ Inspired by the Galleries feature from WordPress, we've made it easy to create g
 {% include post-components/gallery.html
 	columns = 2
 	full_width = true
-	images = "/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,/images/demo.jpg,
+	images = "/../Sensor_Site_Map.png,/../Sensor_Site_Map.png,/../Sensor_Site_Map.png,/../Sensor_Site_Map.png,
 	"
 %}
 ```
@@ -94,7 +117,7 @@ A nice little feature: the carousel only advances when it is in view, so your vi
 {% include post-components/gallery.html
 	columns = 1
 	full_width = true
-	images = "/images/demo.jpg,/images/demo.jpg,/images/demo.jpg
+	images = "/../Sensor_Site_Map.png,/../Sensor_Site_Map.png,/../Sensor_Site_Map.png,
 	"
 %}
 
