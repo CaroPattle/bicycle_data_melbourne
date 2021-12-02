@@ -60,7 +60,11 @@ Let’s breakdown the total volume of cyclists measured by each sensor across th
 
 2020 and 2021 were extraordinary years.  From late 2019, Victoria was affected by [devastating bush fires](https://www.vic.gov.au/2019-20-eastern-victorian-bushfires) and a State of Disaster was declared on 2 January 2020.  Due to the smoke, health warnings were issued with Melbourne's [air quality](https://www.theguardian.com/australia-news/2020/jan/14/melbourne-choked-by-hazardous-smoke-as-bushfires-continue-to-burn-across-victoria) said to be the 'worst in the world' in mid-January. 
 
-From March 2020 and through 2021, Melbourne enacted a broad range of [public health measures to curb the spread of Covid-19](https://www.dhhs.vic.gov.au/coronavirus-update-victoria-26-march-2020). These restrictions spanned density limitations in public spaces and the donning of masks outside the home, through to measures aimed at minimising population mobility.  Due to these unprecedented disruptions, one would expect some impact on normal cycling behaviours.
+From March 2020 and through 2021, Melbourne enacted a broad range of [public health measures to curb the spread of Covid-19](https://www.dhhs.vic.gov.au/coronavirus-update-victoria-26-march-2020). These restrictions spanned density limitations in public spaces and the donning of masks outside the home, through to measures aimed at minimising population mobility.  
+
+Let's see if the data reflects 
+
+Due to these unprecedented disruptions, one would expect some impact on normal cycling behaviours.
 
 <br>
 ###### Monthly bicycle volume and speed by sensor
