@@ -22,7 +22,7 @@ Melbourne bicycle volume and speed are recorded by sensors at 42 off-road and 4 
 
 The dataset includes information such as the volume of cyclists crossing the sensor, their speed, the gap between cyclists, as well as measurements on the wheelbase and axles which indicate the type of bike being ridden.
 
-The map below shows the location, and monthly average speed and number of cyclists from Jan 2018 - Oct 2021.
+The map below shows the **location**, and **monthly average speed** and **number of cyclists** from Jan 2018 - Oct 2021.
 
 *Hover over a specific site in the map below to view the monthly total of cyclists and their average speed.*
 
@@ -30,7 +30,7 @@ The map below shows the location, and monthly average speed and number of cyclis
 
 <iframe src="/data_stories/visuals/bicycle_flows/Sensor_Map.html" class="video-wrap full-width" height="600px"  style="border:none;"></iframe>
 
-Across the four years there were 46 million bicycles registered by the network of sensors across Melbourne. For convenience we'll refer to each bicycle registered by a sensor as a cyclist. 
+Across the four years there were **46 million bicycles** registered by the network of sensors across Melbourne. For convenience we'll refer to each bicycle registered by a sensor as a cyclist. 
 
 | Year                     | Number of cyclists | Average speed (km/h) |
 |--------------------------|-------------------:|---------------------:|
@@ -46,8 +46,9 @@ Across the four years there were 46 million bicycles registered by the network o
 <br>
 Let’s breakdown the total volume of cyclists measured by each sensor across the four years.
 
-- **There's a broad range of traffic volume, from 26 thousand to 2.8 million cyclists**
-- **Fenwick St, Heidelberg Rd No.1 & No.2 were most likely installed post 2019, as there is only sensor data from 2020/21 for these sites**
+-There's a broad range of **bicycle traffic volume** recorded by sensors across the network from **26 thousand to 2.8 million cyclists**.
+
+-Fenwick St, Heidelberg Rd No.1 & No.2 were most likely installed post 2019, as there is only sensor data from 2020/21 for these sites.
 
 
 *Scroll to see the complete list, hover to view percentage*
@@ -57,15 +58,18 @@ Let’s breakdown the total volume of cyclists measured by each sensor across th
 
 #### The pandemic
 
-2020 and 2021 were extraordinary years.  From late 2019, Victoria was effected by [devastating bush fires](https://www.vic.gov.au/2019-20-eastern-victorian-bushfires) and a State of Disaster was declared on 2 January 2020.  Due to the smoke, health warnings were issued with Melbourne's [air quality](https://www.theguardian.com/australia-news/2020/jan/14/melbourne-choked-by-hazardous-smoke-as-bushfires-continue-to-burn-across-victoria) said to be the 'worst in the world' in mid-January. From March 2020 and through 2021, Melbourne enacted a broad range of [public health measures to curb the spread of Covid-19](https://www.dhhs.vic.gov.au/coronavirus-update-victoria-26-march-2020). These restrictions spanned density limitations in public spaces and the donning of masks outside the home, through to measures aimed at minimising population mobility.  Due to these unprecedented disruptions, one would expect some impact on normal cycling behaviours.
+2020 and 2021 were extraordinary years.  From late 2019, Victoria was affected by [devastating bush fires](https://www.vic.gov.au/2019-20-eastern-victorian-bushfires) and a State of Disaster was declared on 2 January 2020.  Due to the smoke, health warnings were issued with Melbourne's [air quality](https://www.theguardian.com/australia-news/2020/jan/14/melbourne-choked-by-hazardous-smoke-as-bushfires-continue-to-burn-across-victoria) said to be the 'worst in the world' in mid-January. 
+
+From March 2020 and through 2021, Melbourne enacted a broad range of [public health measures to curb the spread of Covid-19](https://www.dhhs.vic.gov.au/coronavirus-update-victoria-26-march-2020). These restrictions spanned density limitations in public spaces and the donning of masks outside the home, through to measures aimed at minimising population mobility.  Due to these unprecedented disruptions, one would expect some impact on normal cycling behaviours.
 
 <br>
 ###### Monthly bicycle volume and speed by sensor
 <br>
 The visualisation below charts the monthly total of cyclists, and their average speed, for each sensor across the four year period.
 
-* **October 2020/2021 saw cyclists travelling at lower speeds than in 2018/2019, with reduced ridership on popular inner city commuting routes**
-* **June, July and August saw the least bicycle traffic across all of the years – fewer of us brave Melbourne winters on bikes**
+-**October 2020/2021** saw cyclists travelling at **lower speeds** than in 2018/2019, with **lower bicycle volumes** on popular **inner city commuting routes**.
+
+-**June**, **July** and **August** saw the **least bicycle traffic** across all of the years – fewer of us brave Melbourne winters on bikes.
 
 *Each bubble in the chart represents a sensor. Move the slider to view monthly speed and volume.*
 
@@ -77,7 +81,7 @@ The visualisation below charts the monthly total of cyclists, and their average 
 <br>
 Let's compare the monthly average speeds across each of the years. 
 
-* **There was a small but significant reduction in average cycling speeds in 2020, and to a lesser extent for 2021**
+-There was a small but significant **reduction** in **average cycling speeds** in **2020**, and to a lesser extent for **2021**
 
 *Hover over each data point to compare the average bicycle speed by month.*
 
@@ -87,11 +91,13 @@ Let's compare the monthly average speeds across each of the years.
 ###### Cycling direction by year
 <br>
 
-With the cycling commute interrupted by pandemic restrictions, were we cycling in different directions?  While some interesting patterns are observable, with reduced North-South volume, and some increases in North west-South east trajectories in 2020, there are important caveats that limit the degree to which we can generalise these patterns to overall ridership:
+With the cycling commute interrupted by pandemic restrictions, were we cycling in different directions?  
 
-- The directions measured depend on the locations where sensors have been placed
-- The 2021 data does not include November or December, hence total volume is lower than for other years
-- Introduction of sensors in new locations could be one source of apparent shift in directional volume, rather than general behavioural change 
+While across the period there does appear to be a **reduction in North/South** journeys, and an **increase in North West/South** travel, the extent to which we can interpret this trend is limited, as:
+
+- The directions measured are dependent on where the sensors are located. 
+- The 2021 data does not include November and December.
+- Introduction of sensors in new locations could also affect shifts in directional volume.
 
 
 *Toggle between the years using the buttons below the polar charts*
@@ -110,128 +116,45 @@ Has the impact on Melbourne's mobility impacted where we cycle?
 
 The chart below compares the 2018-19 and 2020-21 bicycle traffic for each sensor site. As November and December are yet to be added to the 2021 data, we've reduced each year to a period from January to October to enable a fair comparison. 
 
-* **The sensors that saw the greatest increases in bicycle volume in 2020-21 were Darebin Creek Trail, Ann Trail No.3, Christmas St, Box Hill\\Ringwood Trail, Federation Trail**
-* **The sensors that saw the greatest decreases in bicycle volume in 2020-21 were Napier St Path, Brighton Rd, Flemington Rd, Royal Pde, Wellington St**
+-The sensors that saw the **greatest increases** in bicycle volume in 2020-21 were **Darebin Creek Trail**, **Ann Trail No.3**, **Christmas St**, **Box Hill\\Ringwood Trail**, and **Federation Trail**.
 
-*The closer the colour split is to the central line, the more constant the bicycle volume across the period. Several sensors were only added post 2019.*
+-The sensors that saw the **greatest decreases** in bicycle volume in 2020-21 were **Napier St Path**, **Brighton Rd**, **Flemington Rd**, **Royal Pde**, and **Wellington St**.
+
+*The closer the colour split is to the central line, the more constant the bicycle volume across the period. We've removed any sensors that were not in place for the majority of the 4 year period.*
 
 <iframe src="/data_stories/visuals/bicycle_flows/Sensor_by_split_years_comparison.html" allowfullscreen class="video-wrap full-width" height="500px" style="border:none;"></iframe>
 
-<br>
-
-
 
 #### Trends
+To what degree can we say that public health measures influenced Melbourne bicycle traffic?
+
+For the purposes of this analysis, we've aligned weeks of the year to their respective restriction levels, with 2018-19 having no restrictions, and 2020/21 a mix of partial and full restrictions.[^1] 
+
 <br>
 
-The chart below is a correlation matrix which represents the direction and strength of associations between variables.  Weeks of the year were aligned with their restriction levels, with 2018-19 having no restrictions, and 2020/21 a mix of partial- and full restrictions.  In the correlation matrix, the first two listed variables of 'Total cyclists' and 'Average speed' are outcomes of interest, while levels of restrictions are exposures which we might hypothesise could bear some influence on these outcomes.
-
-As observed earlier, the 2018-19 period prior to Covid19 related restrictions was weakly associated with increased average cycling speed.  Partial restrictions were not correlated with cycling speed, while a weak negative association with cycling speed was observed for high restrictions.  Distance from the CBD, as represented by the intersection of Bourke and Elizabeth St and measured using Euclidean distance in metres ("as the crow flies"), also had a weak negative correlation with speed, but more so with total number of cyclists.  
-
-The absence of restrictions (2018-19) is inversely collinear with partial- and full restrictions (2020-21).  If we were to model the relationship between restrictions and our outcomes of interest, we would use the indicator variables for partial and full restrictions and omit the variable for no restrictions, since this is effectively implied as the case when both partial and full restrictions are false.
-
-<iframe src="/data_stories/visuals/bicycle_flows/Correlation_Matrix.png" class="video-wrap full-width" height="450px"  style="border:none;"></iframe>
-
-#### Conclusion
+###### Correlation Matrix
 <br>
+The correlation matrix below represents the direction and strength of associations between variables. The first two variables, total cyclists and average speed, are outcomes of interest, while the other variables are exposures which may, or may not, influence these outcomes. 
 
+-A weak association between **'No restrictions'** and **average speed** supports the **speed decrease in 2020/21** as seen in our other analyses.
 
+-While there was a **weak negative association** between **cycling speed** and periods of **high restrictions**, this was not seen during partial restrictions where increased mobility such as travel to work was less restricted.
 
+-**Distance from the CBD** had a weak negative correlation with **speed**, but more so with **total number of cyclists**[^2]. The further from the centre of Melbourne sensors were placed, the fewer, and on average slightly slower, cyclists were recorded.
 
+*Association strength ranges from -1 to +1, with zero indicating no correlation. Dark grey indicates a strong negative assocation, while dark blue indicates a strong positive association*
 
+<iframe src="/data_stories/visuals/bicycle_flows/Correlation_Matrix.png" class="video-wrap full-width" height="600px"  style="border:none;"></iframe>
 
-
-
-
-
-**Obviously,** we’ve styled up *all the basic* text formatting options [available in markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-You can create lists:
-
-* Simple bulleted lists
-* Like this one
-* Are cool
-
-And:
-
-1. Numbered lists
-2. Like this other one
-3. Are great too
-
-You can also add blockquotes, which are shown at a larger width to help break up the layout and draw attention to key parts of your content:
-
-> “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.”
-
-The theme also supports markdown tables:
-
-| Item                 | Author        | Supports tables? | Price |
-|----------------------|---------------|------------------|-------|
-| Duet Jekyll Theme    | Jekyll Themes | Yes              | $49   |
-| Index Jekyll Theme   | Jekyll Themes | Yes              | $49   |
-| Journal Jekyll Theme | Jekyll Themes | Yes              | $49   |
-
-And footnotes[^1], which link to explanations[^2] at the bottom of the page[^3].
-
-[^1]: 
-[^2]: Powerful features to show off your work.
-[^3]: Maintained and supported by the theme developer.
-
-You can throw in some horizontal rules too:
 
 ---
 
-#### Image galleries
-
-Here's a really neat custom feature we added – galleries:
-
-{% include post-components/gallery.html
-	columns = 2
-	full_width = true
-	images = ""
-%}
-
-Inspired by the Galleries feature from WordPress, we've made it easy to create grid layouts for your images. Just use a simple Liquid snippet in your post to create a masonry grid image layout:
-
-{% raw %}
-```liquid
-{% include post-components/gallery.html
-	columns = 2
-	full_width = true
-	images = "/../Sensor_Site_Map.png,/../Sensor_Site_Map.png,/../Sensor_Site_Map.png,/../Sensor_Site_Map.png,
-	"
-%}
-```
-{% endraw %}
-
-*See what we did there? Code and syntax highlighting is built-in too!*
-
-Change the number inside the 'columns' setting to create different types of gallery for all kinds of purposes. You can even click on each image to seamlessly enlarge it on the page.
+[^1]: Full and partial restrictions are respectively aligned to Stage 4/Stage 3 and Stage 2/Stage 1 public health measures. The absence of restrictions (2018-19) is inversely collinear with partial and full restrictions (2020-21).  If we were to model the relationship between restrictions and our outcomes of interest (Total cyclists and Average speed), we would use the indicator variables for partial and full restrictions and omit the variable for no restrictions, since this is effectively implied as the case when both partial and full restrictions are false.
+[^2]: Distance from the CBD, as represented by the intersection of Bourke and Elizabeth St and measured using Euclidean distance in metres ("as the crow flies").
 
 
-#### Image carousels
 
-Here's another gallery with only one column, which creates a carousel slide-show instead.
 
-A nice little feature: the carousel only advances when it is in view, so your visitors won't scroll down to find it half way through your images.
 
-{% include post-components/gallery.html
-	columns = 1
-	full_width = false
-	images = "/data_stories/visuals/bicycle_flows/Sensor_Direction_2018.svg,/data_stories/visuals/bicycle_flows/Sensor_Direction_2019.svg,/data_stories/visuals/bicycle_flows/Sensor_Direction_2020.svg,/data_stories/visuals/bicycle_flows/Sensor_Direction_2021.svg"
-%}
 
-#### What about videos?
 
-Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
-
-{% include post-components/video.html
-	url = "https://player.vimeo.com/video/270725085?color=6c6e95&title=0&byline=0"
-	full_width = true
-%}
-
-### Pretty cool, huh?
-
-We've packed this theme with powerful features to show off your work.
-Why not put them to use on your new website?
-
-<a href="https://jekyllthemes.io/theme/made-portfolio-jekyll-theme" class="button--fill">Get This Theme</a>
