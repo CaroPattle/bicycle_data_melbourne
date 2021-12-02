@@ -99,7 +99,7 @@ While across the period there does appear to be a **reduction in North/South** j
 - Introduction of sensors in new locations could also affect shifts in directional volume.
 
 
-*Toggle between the years using the buttons below the polar charts*
+*Toggle between the years using the buttons below the polar charts. The radial scale represents the total number of cyclists in millions.*
 
 {% include post-components/gallery.html
 	columns = 1
@@ -139,7 +139,7 @@ The correlation matrix below represents the direction and strength of associatio
 
 -While there was a **weak negative association** between **cycling speed** and periods of **high restrictions**, this was not seen during partial restrictions where increased mobility such as travel to work was less restricted.
 
--**Distance from the CBD** had a weak negative correlation with **speed**, but more so with **total number of cyclists**[^2]. The further from the centre of Melbourne sensors were placed, the fewer, and on average slightly slower, cyclists were recorded.
+-**Distance from the CBD** had a weak negative correlation with **speed**, but more so with **total number of cyclists**[^2]. The further from the centre of Melbourne that sensors were placed, the fewer, and on average slightly slower, cyclists were recorded.
 
 *Association strength ranges from -1 to +1, with zero indicating no correlation. Dark grey indicates a strong negative assocation, while dark blue indicates a strong positive association*
 
