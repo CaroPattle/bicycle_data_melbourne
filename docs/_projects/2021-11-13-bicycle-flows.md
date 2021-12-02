@@ -140,7 +140,7 @@ For the purposes of this analysis, we've aligned weeks of the year to their resp
 <br>
 The correlation matrix below represents the direction and strength of associations between variables. The first two variables, total cyclists and average speed, are outcomes of interest, while the other variables are exposures which may, or may not, influence these outcomes. 
 
--A weak association between **'No restrictions'** and **average speed** supports the **speed decrease in 2020/21** as seen in our other analyses.
+-A weak association between **'No restrictions'** and **average speed** is in line with the **speed decrease in 2020/21** as seen in our other analyses.
 
 -While there was a **weak negative association** between **cycling speed** and periods of **high restrictions**, this was not seen during partial restrictions where increased mobility such as travel to work was less restricted.
 
