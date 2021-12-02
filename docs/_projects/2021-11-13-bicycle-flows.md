@@ -59,9 +59,7 @@ Let’s breakdown the total volume of cyclists measured by each sensor across th
 
 From March 2020 and through 2021, Melbourne enacted a broad range of [public health measures to curb the spread of Covid-19](https://www.dhhs.vic.gov.au/coronavirus-update-victoria-26-march-2020). These restrictions spanned density limitations in public spaces and the donning of masks outside the home, through to measures aimed at minimising population mobility.  
 
-Let's see if the data reflects 
-
-Due to these unprecedented disruptions, one would expect some impact on normal cycling behaviours.
+Let's see if the impact of these events are reflected in the bicycle traffic data. 
 
 <br>
 ###### Monthly bicycle volume and speed by sensor
