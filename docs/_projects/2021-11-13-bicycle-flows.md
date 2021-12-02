@@ -8,10 +8,7 @@ description: Analysis of Melbourne bicycle traffic using open data
 featured_image: '../Sensor_Site_Map.png'
 accent_color: '#4C60E6'
 gallery_images:
-  - '../Sensor_Direction_2018.png'
-  - '../Sensor_Direction_2019.png'
-  - '../Sensor_Direction_2020.png'
-  - '../Sensor_Direction_2021.png'
+  - '../../visuals/bicycle_flows/Map snip-01.svg'
 ---
 
 #### The data
