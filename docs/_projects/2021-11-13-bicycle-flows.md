@@ -13,14 +13,11 @@ gallery_images:
 
 #### The data
 
-The following visualisations use [open data](https://discover.data.vic.gov.au/dataset/bicycle-volume-and-speed) and open software to investigate Melbourne’s bicycle traffic across the last four years. 
+This analysis uses [open data](https://discover.data.vic.gov.au/dataset/bicycle-volume-and-speed) and open software to investigate Melbourne’s bicycle traffic across the last four years. 
 
-Melbourne bicycle volume and speed are recorded by sensors at 42 off-road and 4 on-road counter sites. Most sites have two sensors embedded in the pavement to measure bi-directional bicycle flows.
+Melbourne bicycle volume and speed are recorded by sensors at 42 off-road and 4 on-road counter sites. Most sites have two sensors embedded in the pavement to measure bi-directional bicycle traffic.
 
 The dataset includes information such as the volume of cyclists crossing the sensor, their speed, the gap between cyclists, as well as measurements on the wheelbase and axles which indicate the type of bike being ridden.
-
-Across the four years there were 46 million bicycles registered by the network of sensors across Melbourne. For convenience we'll refer to each bicycle registered by a sensor as a cyclist. 
-
 
 
 <br>
@@ -35,7 +32,11 @@ Across the four years there were 46 million bicycles registered by the network o
 #### Annual bicycle traffic
 <br>
 
-If we breakdown the total volume of cyclists measured by each sensor across the four years, we can see that some sensors experience a much higher traffic than others, with a range from 26 thousand to 2.8 million cyclists recorded. 
+Across the four years there were 46 million bicycles registered by the network of sensors across Melbourne. For convenience we'll refer to each bicycle registered by a sensor as a cyclist. 
+
+If we breakdown the total volume of cyclists measured by each sensor, we can see that some sensors experience a much higher traffic than others, with a range from 26 thousand to 2.8 million cyclists recorded. 
+
+<br>
 
 ###### Bicycle volume by sensor
 *Scroll to see the complete list, hover to view percentage*[^1]
@@ -59,9 +60,9 @@ Shifts in the volume, speed, direction and location of cycling show that pattern
 
 <!--  taking the count of cyclists and their average speed by key attributes like direction and year.  --> 
 
-The total number of cyclists observed in a particular year should be understood relative to the number of sensors that were present in that year.  One way is to look at the average monthly cyclist volume (total cyclists / sensor count, by year and overall).  
-
-However, because of the large variation in volume of cyclists at individual sensor locations (a few with much higher volume of cyclists than others), the median or 50th percentile for sensor volume may provide a better sense of usual monthly cyclist volume.
+ There are several methods we can use to investigate how bicycle volume may have changed over the four year period. 
+ 
+ One way is to look at the average monthly cyclist volume (total cyclists / sensor count, by year and overall). However, because of the large variation in volume of cyclists at individual sensor locations (a few with much higher volume of cyclists than others), the median or 50th percentile for sensor volume may provide a better sense of usual monthly cyclist volume. The total number of cyclists observed in a particular year should also be understood relative to the number of sensors that were present in that year (monthly sensor counts). 
 
 Whether you look at the mean or median number of cyclists, we see that there has been a decline overall in cycling volume in 2020 and 2021. 
 
@@ -90,7 +91,7 @@ Looking at the average number of weekly cyclists measured,  there is a significa
 |              Full |                 2386.5 |
 |        **Overall**|              **2797.5**|
 
-This decline can also be seen when the distribution of sensor data is plotted. While no periods with no restrictions had a weekly median of 2560 cyclists, the median of partial and full restrictions are lower and approximately similar, at 2002 and 2025 respectively.
+This decline can also be seen when the distribution of sensor data is plotted. While periods with no restrictions had a weekly median of 2560 cyclists, the median of partial and full restrictions are lower and approximately similar, at 2002 and 2025 respectively.
 
 
 ##### Weekly bicycle volume by restriction level
@@ -171,7 +172,7 @@ While Melbourne's bicycle traffic remained relatively constant during the public
 
 - During periods of partial and full restrictions, there was less bicycle traffic than usual.
 - On average, we cycled slightly more slowly.
-- We also cycled in different areas, with outer city sensor locations experiencing the highest increase in traffic.
+- We cycled in different areas, with outer city sensor locations experiencing the highest increase in traffic.
  
 <br>
 
@@ -179,6 +180,7 @@ While Melbourne's bicycle traffic remained relatively constant during the public
 
 ##### Tools
 <br>
+
 *This analysis was produced using the open source software: [Python](https://www.python.org/) and [Jupyter notebook](https://jupyter.org/), and other Python modules including [Pandas](https://pandas.pydata.org/) and [Plotly](https://plotly.com/) available through the [Anaconda](https://www.anaconda.com/products/individual) Python distribution; [Git](https://git-scm.com/) version control; [Jekyll](https://jekyllrb.com/) for website development; [Github Pages](https://pages.github.com/) for hosting. If you're interested in the code used to create visualisations, you can follow along on the [blog](https://caropattle.github.io/data_stories/blog/) and find the project code repository [here](https://github.com/CaroPattle/data_stories/tree/main/bicycle_flows).*
 
 
