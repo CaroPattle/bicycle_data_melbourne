@@ -70,9 +70,9 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  font_embed: <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
   # '<link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700|Ubuntu+Mono:400,700" rel="stylesheet">'
-  title_font: 'Rubik, sans-serif'
+  title_font: 'Open Sans, sans-serif'
   body_font: 'Open Sans, sans-serif'
   regular_weight: 400
   bold_weight: 700
@@ -80,7 +80,7 @@ font_settings:
     small_size: 30
     medium_size: 40
     large_size: 45
-    weight: 700
+    weight: 800
     letter_spacing: -0.02
   menu:
     small_size: 30

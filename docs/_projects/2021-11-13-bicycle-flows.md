@@ -13,13 +13,15 @@ gallery_images:
 
 #### The data
 
-The following visualisations use [open data](https://discover.data.vic.gov.au/dataset/bicycle-volume-and-speed) to investigate Melbourne’s bicycle traffic across the last four years. 
+The following visualisations use [open data](https://discover.data.vic.gov.au/dataset/bicycle-volume-and-speed) and open software to investigate Melbourne’s bicycle traffic across the last four years. 
 
 Melbourne bicycle volume and speed are recorded by sensors at 42 off-road and 4 on-road counter sites. Most sites have two sensors embedded in the pavement to measure bi-directional bicycle flows.
 
 The dataset includes information such as the volume of cyclists crossing the sensor, their speed, the gap between cyclists, as well as measurements on the wheelbase and axles which indicate the type of bike being ridden.
 
-Across the four years there were **46 million bicycles** registered by the network of sensors across Melbourne. For convenience we'll refer to each bicycle registered by a sensor as a cyclist. 
+Across the four years there were 46 million bicycles registered by the network of sensors across Melbourne. For convenience we'll refer to each bicycle registered by a sensor as a cyclist. 
+
+
 
 <br>
 
@@ -30,59 +32,85 @@ Across the four years there were **46 million bicycles** registered by the netwo
 *Hover on the map to view the monthly total of cyclists and their average speed.*
 <iframe src="/data_stories/visuals/bicycle_flows/Sensor_Map.html" class="video-wrap full-width" height="600px"  style="border:none;"></iframe>
 
-
-
-##### Annual bicycle traffic
-
-**Here a sentence about the various totals**
-
-| Year                     | Number of cyclists | Average speed (km/h) |
-|--------------------------|-------------------:|---------------------:|
-| 2018                     |         11,350,902 |                 21.2 |
-| 2019                     |         13,064,949 |                 21.3 |
-| 2020                     |         11,803,715 |                 19.8 |
-| 2021 (excludes Nov, Dec) |          9,625,145 |                 20.6 |
-| **Overall**              |     **45,844,711** |             **20.7** |
-
+#### Annual bicycle traffic
 <br>
 
 If we breakdown the total volume of cyclists measured by each sensor across the four years, we can see that some sensors experience a much higher traffic than others, with a range from 26 thousand to 2.8 million cyclists recorded. 
 
-
-<br>
 ###### Bicycle volume by sensor
 *Scroll to see the complete list, hover to view percentage*[^1]
 
 <iframe src="/data_stories/visuals/bicycle_flows/Sensor_by_volume.html" class="video-wrap full-width" height="400px"  style="border:none;"></iframe>
 <br>
 
+#### 2020/2021 : Bushfires & a global pandemic
+2020 and 2021 were extraordinary years.  From late 2019, Victoria was affected by [devastating bush fires](https://www.vic.gov.au/2019-20-eastern-victorian-bushfires) with a State of Disaster declared on 2 January 2020.  Health warnings were issued due to smoke, with Melbourne's [air quality](https://www.theguardian.com/australia-news/2020/jan/14/melbourne-choked-by-hazardous-smoke-as-bushfires-continue-to-burn-across-victoria) described as the 'worst in the world' in mid-January. 
 
+From March 2020 and through 2021, Melbourne enacted a broad range of [public health measures](https://www.dhhs.vic.gov.au/coronavirus-update-victoria-26-march-2020) to curb the spread of Covid-19. These restrictions included density limitations in public spaces, the donning of masks outside the home, and measures aimed at minimising population mobility. 
 
-#### The pandemic 
-2020 and 2021 were extraordinary years.  From late 2019,Victoria was affected by [devastating bush fires](https://www.vic.gov.au/2019-20-eastern-victorian-bushfires) and a State of Disaster was declared on 2 January 2020.  Due to the smoke, health warnings were issued with Melbourne's [air quality](https://www.theguardian.com/australia-news/2020/jan/14/melbourne-choked-by-hazardous-smoke-as-bushfires-continue-to-burn-across-victoria) said to be the 'worst in the world' in mid-January. 
+The impact of these events is reflected in the bicycle traffic data. 
 
-From March 2020 and through 2021, Melbourne enacted a broad range of [public health measures to curb the spread of Covid-19](https://www.dhhs.vic.gov.au/coronavirus-update-victoria-26-march-2020). These restrictions spanned density limitations in public spaces and the donning of masks outside the home, through to measures aimed at minimising population mobility.  
+Shifts in the volume, speed, direction and location of cycling show that patterns of how and where people cycle changed in the 2020-21 period, and provide clues as to why.
 
-We can see the impact of these events reflected in bicycle traffic data in several ways.
-
-**While the bicycle data  
-**Sentence about who is riding - eg less work commutes, more recreational?**
+#### Volume
 <br>
 
-<!-- The visualisation below charts the monthly total of cyclists, and their average speed, for each sensor across the four year period. -->
+<!-- We aggregated the bicycle sensor data at monthly and weekly intervals for analysis of cycling trends. -->
 
-<!-- -**October 2020/2021** saw cyclists travelling at **lower speeds** than in 2018/2019, with **lower bicycle volumes** on popular **inner city commuting routes**.
+<!--  taking the count of cyclists and their average speed by key attributes like direction and year.  --> 
 
--**June**, **July** and **August** saw the **least bicycle traffic** across all of the years – fewer of us brave Melbourne winters on bikes.
+The total number of cyclists observed in a particular year should be understood relative to the number of sensors that were present in that year.  One way is to look at the average monthly cyclist volume (total cyclists / sensor count, by year and overall).  
+
+However, because of the large variation in volume of cyclists at individual sensor locations (a few with much higher volume of cyclists than others), the median or 50th percentile for sensor volume may provide a better sense of usual monthly cyclist volume.
+
+Whether you look at the mean or median number of cyclists, we see that there has been a decline overall in cycling volume in 2020 and 2021. 
+
+                                                 
+| Year                     |   Monthly sensor counts | Number of cyclists | Average monthly cyclists | Median monthly cyclists |
+|--------------------------|------------------------:|-------------------:|-------------------------:|------------------------:|
+| 2018                     |                     882 |         11,350,902 |                 12,869.5 |                10,365 |  
+| 2019                     |                     963 |         13,064,949 |                 13,566.9 |                10,338 |  
+| 2020                     |                    1,016|         11,803,715 |                 11,617.8 |                 9,267.5 | 
+| 2021 (excl. Nov, Dec)    |                     908 |          9,625,145 |                 10,600.4 |                 8,933.5 |
+| **Overall**              |                **3769** |     **45,844,711** |             **12,163.6** |            **9,813** |         
+
+<br>
+
+To analyse how public health measures may have affected cycling behaviour, we've aggregated the data further into weekly intervals. These weeks have then been aligned to the level of restrictions in place at that time. 
+
+While January 2018 - Februrary 2020 had no restrictions on mobility in place, the remainder of 2020 and 2021 saw a mix of partial and full restrictions. Here we've differentiated partial and full restrictions by the lockdown level, with full restrictions corresponding to level 3 and level 4, and partial restrictions to level 1 and level 2.[^2]
+
+Looking at the average number of weekly cyclists measured,  there is a significant decrease during partial and full restrictions in comparision to periods of no restrictions. 
 
 
-###### Monthly bicycle volume and speed by sensor
-*Each bubble in the chart represents a sensor. Move the slider to view monthly speed and volume.*
-<iframe src="/data_stories/visuals/bicycle_flows/BubbleYears.html" allowfullscreen class="video-wrap full-width" height="600px" style="border:none;"></iframe> -->
+| Restriction Level | Average weekly cyclists|
+|-------------------|------------------------|
+|              None |                 3161.4 |
+|           Partial |                 2360.5 |
+|              Full |                 2386.5 |
+|        **Overall**|              **2797.5**|
+
+This decline can also be seen when the distribution of sensor data is plotted. While no periods with no restrictions had a weekly median of 2560 cyclists, the median of partial and full restrictions are lower and approximately similar, at 2002 and 2025 respectively.
+
+
+##### Weekly bicycle volume by restriction level
+*Hover to view median, upper and lower quartile ranges, as well as outlying data.*
+
+<iframe src="/data_stories/visuals/bicycle_flows/Restriction_volume.html" allowfullscreen class="video-wrap full-width" height="600px" style="border:none;"></iframe>
+
 
 #### Speed
 <br>
 If we compare the monthly average speeds across each of the years, we can see a small but significant reduction in average cycling speeds in 2020, and to a lesser extent for 2021.
+
+While the data does not contain any qualitative data on cyclist demographics, both partial and full retrictions included directives to work from home if possible. The likely decrease in cyclists commuting to work could go some way in explaining the drop in speed across the network during these periods. 
+
+| Restriction level | Average speed |
+|-------------------|---------------|
+|              None |          21.2 |
+|           Partial |          20.4 |
+|              Full |          19.5 |
+|       **Overall** |      **20.7** |
 
 <br>
 ###### Bicycle speed (km/hr) by month
@@ -90,7 +118,6 @@ If we compare the monthly average speeds across each of the years, we can see a 
 
 <iframe src="/data_stories/visuals/bicycle_flows/speed_chart.html" allowfullscreen class="video-wrap full-width" height="500px" style="border:none;"></iframe>
 
-<br>
 #### Direction
 <br>
 With the cycling commute interrupted by pandemic restrictions, were we cycling in different directions?  
@@ -115,49 +142,50 @@ While across the period there does appear to be a reduction in North/South journ
 <br>
 #### Location
 <br>
-Has the impact on Melbourne's mobility impacted where we cycle?
+Public health measures in 2020 and 2021 also affected where we cycled. 
 
 The chart below compares the 2018-19 and 2020-21 bicycle traffic for each sensor site. As November and December are yet to be added to the 2021 data, we've reduced each year to a period from January to October to enable a fair comparison. 
 
-**Change sentence to being about a cbd/urban split**
-
--The sensors that saw the greatest increases in bicycle volume in 2020-21 were Darebin Creek Trail, Ann Trail No.3, Christmas St, Box Hill\\Ringwood Trail, and Federation Trail.
-
--The sensors that saw the greatest decreases in bicycle volume in 2020-21 were Napier St Path, Brighton Rd, Flemington Rd, Royal Pde, and Wellington St.
+Very few sensor sites maintained the same amount of bicycle traffic across the two periods, with the largest shifts taking place at Darebin Creek Trail and the Wellington Street sites.
 
 <br>
-###### Biennial bicycle traffic by sensor
+
+###### Traffic comparison by sensor (2018/19 and 2020/21)
 *The closer the colour split is to the central line, the more constant the bicycle volume across the period. We've removed any sensors that were not in place for the majority of the 4 year period.*
 <iframe src="/data_stories/visuals/bicycle_flows/Sensor_by_split_years_comparison.html" allowfullscreen class="video-wrap full-width" height="500px" style="border:none;"></iframe>
 
 <br>
-#### Restricion Level
+
+When distance from the CBD is factored into sensor volume, we can see that sites further from the CBD experienced the highest growth in bicycle traffic in the 2020-21 period. Inversely, the closer to the city centre that a sensor was, the more likely that a decrease in bicycle traffic was observed.[^3]
+ 
 <br>
-To what degree can we say that public health measures influenced Melbourne bicycle traffic?
 
-For the purposes of this analysis, we've aligned weeks of the year to their respective restriction levels, with 2018-19 having no restrictions, and 2020/21 a mix of partial and full restrictions. Full and partial restrictions are respectively aligned to Stage 4/Stage 3 and Stage 2/Stage 1 public health measures. [^2] 
+###### Traffic change by sensor distance from CBD (2018/19 and 2020/21)
+*The chart below uses a logarithmic scale for distance to CBD - the further from the city, the more pronounced the change in traffic volume. Hover to view the two year period, cyclist percentage of sensor, site and distance from CBD.*
+<iframe src="/data_stories/visuals/bicycle_flows/Cyclist_percentage_distance_cbd.html" allowfullscreen class="video-wrap full-width" height="500px" style="border:none;"></iframe>
 
-
-
-
-<!-- ###### Correlation Matrix
+#### Conclusion
 <br>
-The correlation matrix below represents the direction and strength of associations between variables. The first two variables, total cyclists and average speed, are outcomes of interest, while the other variables are exposures which may, or may not, influence these outcomes. 
 
--A weak association between **'No restrictions'** and **average speed** is in line with the **speed decrease in 2020/21** as seen in our other analyses.
+While Melbourne's bicycle traffic remained relatively constant during the public health measures in 2020/2021, the shifts in some of the metrics point to how our cycling habits may have changed during this period. 
 
--While there was a **weak negative association** between **cycling speed** and periods of **high restrictions**, this was not seen during partial restrictions where increased mobility such as travel to work was less restricted.
+- During periods of partial and full restrictions, there was less bicycle traffic than usual.
+- On average, we cycled slightly more slowly.
+- We also cycled in different areas, with outer city sensor locations experiencing the highest increase in traffic.
+ 
+<br>
 
--**Distance from the CBD** had a weak negative correlation with **speed**, but more so with **total number of cyclists**[^3]. The further from the centre of Melbourne that sensors were placed, the fewer, and on average slightly slower, cyclists were recorded.
+---
 
-*Association strength ranges from -1 to +1, with zero indicating no correlation. Dark grey indicates a strong negative assocation, while dark blue indicates a strong positive association*
+##### Tools
+<br>
+*This analysis was produced using the open source software: [Python](https://www.python.org/) and [Jupyter notebook](https://jupyter.org/), and other Python modules including [Pandas](https://pandas.pydata.org/) and [Plotly](https://plotly.com/) available through the [Anaconda](https://www.anaconda.com/products/individual) Python distribution; [Git](https://git-scm.com/) version control; [Jekyll](https://jekyllrb.com/) for website development; [Github Pages](https://pages.github.com/) for hosting. If you're interested in the code used to create visualisations, you can follow along on the [blog](https://caropattle.github.io/data_stories/blog/) and find the project code repository [here](https://github.com/CaroPattle/data_stories/tree/main/bicycle_flows).*
 
-<iframe src="/data_stories/visuals/bicycle_flows/Correlation_Matrix.png" class="video-wrap full-width" height="600px"  style="border:none;"></iframe> -->
 
 
 ---
 [^1]: Fenwick St, Heidelberg Rd No.1 & No.2 were most likely installed post 2019, as there is only sensor data from 2020/21 for these sites.
-[^2]: The absence of restrictions (2018-19) is inversely collinear with partial and full restrictions (2020-21).  If we were to model the relationship between restrictions and our outcomes of interest (Total cyclists and Average speed), we would use the indicator variables for partial and full restrictions and omit the variable for no restrictions, since this is effectively implied as the case when both partial and full restrictions are false.
+[^2]: The timeline and restriction levels were cross-checked with several sources: [lockdownstats](https://lockdownstats.melbourne/timeline/), [the timeline of every Victorian lockdown](https://bigaustraliabucketlist.com/victoria-lockdowns-dates-restrictions/) and [Melbourne Lockdown Dates](https://www.platinumaccounting.com.au/melbourne-lockdown-dates/)
 [^3]: Distance from the CBD, as represented by the intersection of Bourke and Elizabeth St and measured using Euclidean distance in metres ("as the crow flies").
 
 
