@@ -51,7 +51,8 @@ From March 2020 and through 2021, Melbourne enacted a broad range of [public hea
 
 The impact of these events is reflected in the bicycle traffic data. 
 
-Shifts in the volume, speed, direction and location of cycling show that patterns of how and where people cycle changed in the 2020-21 period, and provide clues as to why.
+Shifts in the volume, speed, direction, and location of bicycle traffic show that patterns of how and where people cycle changed in the 2020-21 period. Combined with the context of public health measures, these shifts are indications of how cycling behaviour was affected by wider social factors. 
+ 
 
 #### Volume
 <br>
@@ -62,9 +63,9 @@ Shifts in the volume, speed, direction and location of cycling show that pattern
 
  There are several methods we can use to investigate how bicycle volume may have changed over the four year period. 
  
- One way is to look at the average monthly cyclist volume (total cyclists / sensor count, by year and overall). However, because of the large variation in volume of cyclists at individual sensor locations (a few with much higher volume of cyclists than others), the median or 50th percentile for sensor volume may provide a better sense of usual monthly cyclist volume. The total number of cyclists observed in a particular year should also be understood relative to the number of sensors that were present in that year (monthly sensor counts). 
+Firstly we can look at the average monthly cyclist volume (total cyclists / sensor count, by year and overall). However, as there is large variation in the volume of cyclists recorded across the year, the median or 50th percentile for sensor volume may provide a better sense of usual monthly cyclist volume. The total number of cyclists observed in a particular year should also be understood relative to the number of sensors that were present in that year (monthly sensor counts). 
 
-Whether you look at the mean or median number of cyclists, we see that there has been a decline overall in cycling volume in 2020 and 2021. 
+Whether you look at the mean or median number of cyclists, we see that there has been an overall decline in cycling volume in 2020 and 2021. 
 
                                                  
 | Year                     |   Monthly sensor counts | Number of cyclists | Average monthly cyclists | Median monthly cyclists |
