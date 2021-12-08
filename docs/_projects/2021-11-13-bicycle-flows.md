@@ -34,7 +34,7 @@ The dataset includes information such as the volume of cyclists crossing the sen
 
 Across the four years there were 46 million bicycles registered by the network of sensors across Melbourne. For convenience we'll refer to each bicycle registered by a sensor as a cyclist. 
 
-If we breakdown the total volume of cyclists measured by each sensor, we can see that some sensors experience a much higher traffic than others, with a range from 26 thousand to 2.8 million cyclists recorded. 
+If we breakdown the total volume of cyclists measured by each sensor, we can see that some sensors experience much higher traffic than others, with a range from 26 thousand to 2.8 million cyclists recorded. 
 
 <br>
 
@@ -94,6 +94,7 @@ Looking at the average number of weekly cyclists measured,  there is a significa
 
 This decline can also be seen when the distribution of sensor data is plotted. While periods with no restrictions had a weekly median of 2560 cyclists, the median of partial and full restrictions are lower and approximately similar, at 2002 and 2025 respectively.
 
+<br>
 
 ##### Weekly bicycle volume by restriction level
 *Hover to view median, upper and lower quartile ranges, as well as outlying data.*
@@ -105,6 +106,14 @@ This decline can also be seen when the distribution of sensor data is plotted. W
 <br>
 If we compare the monthly average speeds across each of the years, we can see a small but significant reduction in average cycling speeds in 2020, and to a lesser extent for 2021.
 
+###### Bicycle speed (km/hr) by month
+*Hover over each data point to compare the average bicycle speed by month.*
+
+<iframe src="/data_stories/visuals/bicycle_flows/speed_chart.html" allowfullscreen class="video-wrap full-width" height="500px" style="border:none;"></iframe>
+
+
+If we chart average speed with restriction levels, we can see that additional restrictions result in speed reductions, with cyclists riding at slightly lower speeds during full restrictions in comparison to periods with either partial or no restrictions. 
+
 While the data does not contain any qualitative data on cyclist demographics, both partial and full retrictions included directives to work from home if possible. The likely decrease in cyclists commuting to work could go some way in explaining the drop in speed across the network during these periods. 
 
 | Restriction level | Average speed |
@@ -115,14 +124,10 @@ While the data does not contain any qualitative data on cyclist demographics, bo
 |       **Overall** |      **20.7** |
 
 <br>
-###### Bicycle speed (km/hr) by month
-*Hover over each data point to compare the average bicycle speed by month.*
-
-<iframe src="/data_stories/visuals/bicycle_flows/speed_chart.html" allowfullscreen class="video-wrap full-width" height="500px" style="border:none;"></iframe>
 
 #### Direction
 <br>
-With the cycling commute interrupted by pandemic restrictions, were we cycling in different directions?  
+With the cycling commutes interrupted by pandemic restrictions, were we cycling in different directions?  
 
 While across the period there does appear to be a reduction in North/South journeys, and an increase in North West/South travel, the extent to which we can interpret this trend is limited, as:
 
@@ -158,7 +163,7 @@ Very few sensor sites maintained the same amount of bicycle traffic across the t
 
 <br>
 
-When distance from the CBD is factored into sensor volume, we can see that sites further from the CBD experienced the highest growth in bicycle traffic in the 2020-21 period. Inversely, the closer to the city centre that a sensor was, the more likely that a decrease in bicycle traffic was observed.[^3]
+When distance from the CBD is factored into sensor volume, we can see that sites further from the CBD experienced the highest growth in bicycle traffic in the 2020-21 period. Inversely, the closer to the city centre that a sensor was, it was more likely that a decrease in bicycle traffic was observed.[^3]
  
 <br>
 
@@ -168,11 +173,12 @@ When distance from the CBD is factored into sensor volume, we can see that sites
 
 #### Conclusion
 <br>
+So what insights does this dataset provide?
 
 While Melbourne's bicycle traffic remained relatively constant during the public health measures in 2020/2021, the shifts in some of the metrics point to how our cycling habits may have changed during this period. 
 
 - During periods of partial and full restrictions, there was less bicycle traffic than usual.
-- On average, we cycled slightly more slowly.
+- On average, we cycled slightly more slowly, with a higher restriction level resulting in a lower average cycling speed.
 - We cycled in different areas, with outer city sensor locations experiencing the highest increase in traffic.
  
 <br>
