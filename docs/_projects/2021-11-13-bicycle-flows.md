@@ -15,7 +15,7 @@ gallery_images:
 
 This analysis uses [open data](https://discover.data.vic.gov.au/dataset/bicycle-volume-and-speed) and open software to investigate Melbourne’s bicycle traffic across the last four years. 
 
-Melbourne bicycle volume and speed are recorded by sensors at 42 off-road and 4 on-road counter sites. Most sites have two sensors embedded in the pavement to measure bi-directional bicycle traffic.
+Melbourne bicycle volume and speed are recorded at over 40 sensor counter sites. Most sites have two sensors embedded in the pavement to measure bi-directional bicycle traffic.
 
 The dataset includes information such as the volume of cyclists crossing the sensor, their speed, the gap between cyclists, as well as measurements on the wheelbase and axles which indicate the type of bike being ridden.
 
