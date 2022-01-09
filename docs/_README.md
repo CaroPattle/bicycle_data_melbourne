@@ -154,6 +154,7 @@ This is the blog listing page, which shows all your blog posts. You can edit the
 
 These control the main content of your website, and are found inside the `_projects`, `_posts` and `_pages` folders.
 
+
 Take a look at the demo content inside each folder for full descriptions on what you can do inside these, and to use as a template for your own content.
 
 ---
