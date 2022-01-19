@@ -5,7 +5,7 @@ subtitle: How has the Covid-19 pandemic affected the Victorian construction indu
 date: 2022-01-18 00:00:00
 description: Analysis of Victorian building permit activity using open data
 
-featured_image: '../Sensor_Site_Map.png'
+featured_image: '../permit_map_2021.jpg'
 accent_color: '#4C60E6'
 gallery_images:
   - '../../visuals/bicycle_flows/Map snip-01.svg'
@@ -26,7 +26,7 @@ As a basic measure, let's first investigate the volume of building permits issue
 
 Between January 2019 to November 2021, over 330,000 building permits were issued in Victoria.
 
-Breaking this down annually, we can observe that building permit volume actually grew across the period, with both 2020 and 2021 seeing an increase in building permits issued. This trend will become yet more apparent as the December 2021 data is added to the dataset.
+Breaking this down annually, we can observe that building permit volume actually grew across the period, with both 2020 and 2021 seeing an increase in the total number of building permits issued. This trend will become yet more apparent as the December 2021 data is added to the dataset.
 
 <br>
 
@@ -36,7 +36,7 @@ Breaking this down annually, we can observe that building permit volume actually
 
 <iframe src="/data_stories/visuals/building_permits/Permit_Volume_Bar.html" class="video-wrap full-width" height="600px"  style="border:none;"></iframe>
 
-Viewing the permit volume by month we can see the likely impact of the HomeBuilder scheme. While the building permit volume fluctuated from month to month, the highest spike of the period (12.4  thousand) occured in March 2021, which was immediately prior to the conclusion of the initiative in April of that year.
+Viewing the permit volume by month we can see the likely impact of the HomeBuilder scheme. While the building permit volume fluctuated from month to month, the highest spike of the period occured in March 2021, with 12,400 permits issued.  This was immediately prior to the conclusion of the initiative in April of that year.
 
 <br>
 
@@ -50,7 +50,7 @@ Viewing the permit volume by month we can see the likely impact of the HomeBuild
 
 #### Location, location, location
 
-While there were overall annual increases in permit volume between 2019 and 2021, this growth was not distributed uniformly across Victoria. Between 2020 and 2019, less than half Victorian suburbs experienced permit volume growth, while between 2021 and 2020 this had reduced to 39% of suburbs.
+While there were overall annual increases in permit volume between 2019 and 2021, this growth was not distributed uniformly across Victoria. Between 2020 and 2019, fewer than half of Victorian suburbs experienced permit volume growth, while between 2021 and 2020 this had reduced to 39% of suburbs.
 
 Across the entire period, the ten suburbs below saw the highest volume of Victorians choosing to build.
 
@@ -91,27 +91,13 @@ Clusters of surburbs experiencing higher volumes of building activity can be ide
 
 The building permit dataset also gives us insight into the type of building activities for which planning permits have been issued.
 
-The table  below displays specific construction activities as a percentage of each suburb's total building permits.
+The chart  below displays specific construction activities as a percentage of each suburb's total building permits.
 
 With the exception of Melbourne, the bulk of activity in top ranking suburbs is related to new builds. This finding is not altogether suprising given the differences in urban density when comparing the city centre with suburbs located on the urban fringe. 
 
-        
-
-| Suburb      |   Alteration |   Change of Use |   Demolition |   Extension |   New building |   Other |   Re-erection |   Removal |
-|:------------|-------------:|----------------:|-------------:|------------:|---------------:|--------:|--------------:|----------:|
-| Clyde       |          0.4 |             0.1 |          0.5 |         2.3 |           95.6 |     1.0 |           0.0 |       0.1 |
-| Clyde North |          1.1 |             0.4 |          0.3 |         3.1 |           93.1 |     2.0 |           0.0 |       0.0 |
-| Craigieburn |          5.7 |             0.2 |          0.8 |         5.3 |           84.1 |     3.6 |           0.2 |       0.2 |
-| Melbourne   |         77.0 |             1.1 |          2.8 |         0.9 |           12.8 |     5.2 |           0.2 |       0.1 |
-| Mickleham   |          1.2 |             0.1 |          0.1 |         1.8 |           95.0 |     1.9 |           0.0 |       0.0 |
-| Officer     |          1.1 |             0.0 |          1.0 |         5.1 |           88.6 |     4.1 |           0.0 |       0.0 |
-| Tarneit     |          1.5 |             0.5 |          0.3 |         2.4 |           94.0 |     1.2 |           0.1 |       0.0 |
-| Truganina   |          3.5 |             0.2 |          0.3 |         1.5 |           92.9 |     1.6 |           0.1 |       0.0 |
-| Werribee    |          5.3 |             0.4 |          1.9 |         4.6 |           84.2 |     3.2 |           0.3 |       0.2 |
-| Wollert     |          0.4 |             0.1 |          0.3 |         1.9 |           95.6 |     1.8 |           0.0 |       0.0 |
+<iframe src="/data_stories/visuals/building_permits/Parallel coordinates plot.html" class="video-wrap full-width" height="600px"  style="border:none;"></iframe>
 
 <br>
-
 
 
 #### Building Use
