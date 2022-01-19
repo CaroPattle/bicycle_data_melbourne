@@ -148,11 +148,10 @@ Perhaps concerningly, the largest and most sustained decrease in median of const
 
 #### Environment
 
+Victorians are increasingly investing portions of their construction budget on features that harness natural resources. 
 
+The barchart below shows a steady increase in the percentage of building permits which include plans for solar hot water systems and/or rainwater tanks. This increase indicates a growing market for climate-conscious construction.
 
-Climate change reflected in how people are choosing to build
-
-The barchart below shows a steady increase in the percentage of building permits which include plans for solar hot water systems and/or rainwater tanks. We can anticipate that this trend will become more pronounced as the December 2021 data is added to the dataset.
 <br>
 
 ###### Solar hot water and rainwater tank inclusion by year
@@ -167,14 +166,14 @@ The building permit dataset provides evidence that, despite global economic unce
 
 Analysing several key variables, we can see that:
 
-- There was an growth in building permit volume.
+- There was growth in building permit volume.
 - The median spend per planning permit increased.
 
-While new builds dominated the urban fringe suburbs which experienced high permit volume, this trend was reversed in inner Melbourne, where alterations comprised the bulk of permits.
+While new builds dominated in the urban fringe suburbs which experienced high permit volume, this trend was reversed in inner Melbourne, where alterations comprised the bulk of permits.
 
-However, there were several metrics which point to the effects of an economy operating in a pandemic. Firstly we saw a shift in the intended purposes of buildings, with move away from commmercial and public buildings and an increase in domestic and industrial builds. Secondly, although the median construction budget increased annually, a steep decline was observable in late 2021, coinciding with the arrival of a new Covid19 variant and the conclusion of the HombeBuilder stimulus. 
+However, there were several metrics which point to the effects of an economy operating in a pandemic. Firstly we saw a shift in the intended purposes of buildings, with a move away from commmercial and public buildings and an increase in domestic and industrial builds. Secondly, although the median construction budget increased annually, a steep decline was observable in late 2021, coinciding with the arrival of a new Covid19 variant and the conclusion of the HomeBuilder stimulus. 
 
-And finally, Victorians are increasingly looking to include building features which harness their natural environment, with an growth in the uptake of both solar hot water and rainwater tanks .
+And finally, Victorians are increasingly looking to include building features which harness their natural environment, with a growth in the uptake of both solar hot water and rainwater tanks .
 
  
 <br>
