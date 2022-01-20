@@ -93,13 +93,15 @@ The building permit dataset also gives us insight into the type of building acti
 
 The chart  below displays specific construction activities as a percentage of each suburb's total building permits.
 
-With the exception of Melbourne, the bulk of activity in top ranking suburbs is related to new builds. This finding is not altogether suprising given the differences in urban density when comparing the city centre with suburbs located on the urban fringe. 
+With the exception of Melbourne, the bulk of activity in top ranking suburbs is related to new builds. This finding is not altogether suprising given the differences in urban density when comparing the city centre with suburbs located on the urban fringe.
+<br>
+ 
 
 ###### Building activity as a percentage of suburb permit volume
+*Select sections of building activities to view relevant suburbs*
 
 <iframe src="/data_stories/visuals/building_permits/Parallel coordinates plot.html" class="video-wrap full-width" height="600px"  style="border:none;"></iframe>
 
-<br>
 
 
 #### Building Use
