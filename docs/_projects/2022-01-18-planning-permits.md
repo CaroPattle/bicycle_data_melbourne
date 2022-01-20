@@ -8,7 +8,7 @@ description: Analysis of Victorian building permit activity using open data
 featured_image: '../permit_map_2021.jpg'
 accent_color: '#4C60E6'
 gallery_images:
-  - '../../visuals/bicycle_flows/Map snip-01.svg'
+  - '../permit_map_2021.jpg'
 ---
 
 
@@ -17,7 +17,7 @@ Over the last 2 years the Victorian construction industry has experienced both t
 
 In the face of the first recession in 30 years, the Federal Government unveiled the [HomeBuilder](https://www.sro.vic.gov.au/homebuilder-grant-guidelines)  initative in June 2020, targeting the construction industry as one of the national economy's key players. The scheme aimed to support confidence in the residential construction sector by providing eligible owner-occupiers with a grant to build a new home, substantially renovate an existing home or buy an off-the-plan home/new home.
 
-In Victoria alone, the HomeBuilder initiative recieved just over [39,000](https://treasury.gov.au/coronavirus/homebuilder) applicants. However, to what degree can we say that the state's construction industry not only weathered but thrived during the pandemic? This analysis will use [open data building permit activity](https://discover.data.vic.gov.au/dataset/building-permit-activity-data-2020) as one measure of the sector's resilience. Comprised of over 40 variables, the annual building permit datasets provide a range of insights into how many Victorians are deciding to build, where and how they're building, as well as any shifts in these behaviours. 
+In Victoria alone, the HomeBuilder initiative received just over [39,000](https://treasury.gov.au/coronavirus/homebuilder) applicants. However, to what degree can we say that the state's construction industry not only weathered but thrived during the pandemic? This analysis uses [open data building permit activity](https://discover.data.vic.gov.au/dataset/building-permit-activity-data-2020) as one measure of the sector's resilience. Comprised of over 40 variables, the annual building permit datasets provide a range of insights into how many Victorians are deciding to build, where and how they're building, as well as any shifts in these behaviours. 
 
 
 #### Volume
@@ -50,7 +50,7 @@ Viewing the permit volume by month we can see the likely impact of the HomeBuild
 
 #### Location, location, location
 
-While there were overall annual increases in permit volume between 2019 and 2021, this growth was not distributed uniformly across Victoria. Between 2020 and 2019, fewer than half of Victorian suburbs experienced permit volume growth, while between 2021 and 2020 this had reduced to 39% of suburbs.
+While there were overall annual increases in permit volume between 2019 and 2021, this growth was not distributed uniformly across Victoria. Between 2019 and 2020, fewer than half of Victorian suburbs experienced permit volume growth, while between 2020 and 2021 this had reduced to 39% of suburbs.
 
 Across the entire period, the ten suburbs below saw the highest volume of Victorians choosing to build.
 
@@ -103,7 +103,7 @@ With the exception of Melbourne, the bulk of activity in top ranking suburbs is 
 #### Building Use
 
 
-While demand for building permits grew between 2019 and 2021, there were several shifts in the types of buildings that were being constructed.
+While demand for building permits grew between 2019 and 2021, there were several shifts in the types of buildings that were being planned.
 
 While permits relating to commercial and public buildings decreased, both industrial and domestic builds experienced sustained growth overall across the three year period. Perhaps surprisingly, hospital and healthcare building permits also decreased across the period.
 
@@ -134,7 +134,7 @@ Charting the median estimated building cost by month, we can see that, despite s
 
 However, while 2020 spending was relatively steady, its highest point in September was  still below the corresponding peak in 2019. This observation may reflect the income-capped eligibility requirements of HomeBuilder, with individual applicants required to earn below $125k and couples below $200k per annum. 
 
-Perhaps concerningly, the largest and most sustained decrease in median of construction budgets was seen in late 2021, which coincided with the arrival in Australia of the Delta Covid19 variant.
+Perhaps concerningly, the largest and most sustained decrease in the median of construction budgets was seen in late 2021, which coincided with the arrival in Australia of the Delta Covid19 variant.
 
 <br>
 
@@ -162,7 +162,7 @@ The barchart below shows a steady increase in the percentage of building permits
 
 #### Conclusion
 <br>
-The building permit dataset provides evidence that, despite global economic uncertainties, the Victorian construction industry experienced growth across the pandemic period.
+The building permit dataset provides evidence that, despite global economic uncertainties, the Victorian construction industry likely experienced growth across the pandemic period. 
 
 Analysing several key variables, we can see that:
 
